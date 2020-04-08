@@ -1,0 +1,16 @@
+{
+  "name": "rabbitmq-tut1",
+  "version": "1.0.0",
+  "description": "RabbitMQ Javascript Tutorial",
+  "main": "index.js",
+  "scripts": {
+    "rmq": "docker-compose",
+    "rmqlog": "docker logs rabbitmq"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.5"
+  }
+}
